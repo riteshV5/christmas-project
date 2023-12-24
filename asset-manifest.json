@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/christmas-project/static/css/main.57b297a7.css",
+    "main.js": "/christmas-project/static/js/main.807f4eee.js",
+    "static/js/787.b7e24bd1.chunk.js": "/christmas-project/static/js/787.b7e24bd1.chunk.js",
+    "static/media/homepage.gif": "/christmas-project/static/media/homepage.db2254a0d110e1a500ea.gif",
+    "static/media/yespage.gif": "/christmas-project/static/media/yespage.f42258347ed95b04d450.gif",
+    "index.html": "/christmas-project/index.html",
+    "main.57b297a7.css.map": "/christmas-project/static/css/main.57b297a7.css.map",
+    "main.807f4eee.js.map": "/christmas-project/static/js/main.807f4eee.js.map",
+    "787.b7e24bd1.chunk.js.map": "/christmas-project/static/js/787.b7e24bd1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57b297a7.css",
+    "static/js/main.807f4eee.js"
+  ]
+}
