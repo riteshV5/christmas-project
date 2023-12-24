@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import LandingPage from "./Pages/LandingPage";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import YessPage from "./Pages/YessPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <Router>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          backgroundColor: "#F48A94",
+          height: "100vh",
+        }}
+      >
+        <Routes>
+          <Route path="/christmasday" element={<LandingPage />}></Route>
+          <Route path="/yess" element={<YessPage />}></Route>
+        </Routes>
+        <span
+          style={{
+            position: "absolute",
+            bottom: "1px",
+            fontSize: "8px",
+            textDecoration: "underline",
+          }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          Created by Ritesh
+        </span>
+      </div>
+    </Router>
   );
 }
 
